@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -38,8 +38,8 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -202,6 +202,87 @@
 <wire x1="17.25" y1="-2.76" x2="17.25" y2="8.44" width="0.127" layer="21"/>
 <wire x1="17.25" y1="8.44" x2="-17.25" y2="8.44" width="0.127" layer="21"/>
 </package>
+<package name="POWERPOLE_PAIR_45A">
+<pad name="RED" x="-3.95" y="-1.15" drill="1.27" diameter="3.5" shape="long"/>
+<pad name="BLACK" x="3.95" y="-1.15" drill="1.27" diameter="3.5" shape="long"/>
+<wire x1="-7.9" y1="3.95" x2="-7.9" y2="-3.95" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="-3.95" x2="0" y2="-3.95" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.95" x2="7.9" y2="-3.95" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-3.95" x2="7.9" y2="3.95" width="0.127" layer="21"/>
+<wire x1="7.9" y1="3.95" x2="0" y2="3.95" width="0.127" layer="21"/>
+<text x="-10.16" y="2.54" size="2.54" layer="21" font="vector">+</text>
+<wire x1="0" y1="3.95" x2="-7.9" y2="3.95" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.95" x2="0" y2="3.95" width="0.127" layer="21"/>
+<hole x="-1.97" y="-1.15" drill="1.27"/>
+<hole x="-5.93" y="-1.15" drill="1.27"/>
+<hole x="1.97" y="-1.15" drill="1.27"/>
+<hole x="5.93" y="-1.15" drill="1.27"/>
+<hole x="-4.66" y="-1.15" drill="1.27"/>
+<hole x="-3.39" y="-1.15" drill="1.27"/>
+<hole x="3.24" y="-1.15" drill="1.27"/>
+<hole x="4.66" y="-1.15" drill="1.27"/>
+<hole x="-5.676" y="-1.15" drill="1.27"/>
+<hole x="-5.803" y="-1.15" drill="1.27"/>
+<hole x="-5.549" y="-1.15" drill="1.27"/>
+<hole x="-5.422" y="-1.15" drill="1.27"/>
+<hole x="-5.295" y="-1.15" drill="1.27"/>
+<hole x="-5.168" y="-1.15" drill="1.27"/>
+<hole x="-5.041" y="-1.15" drill="1.27"/>
+<hole x="-4.914" y="-1.15" drill="1.27"/>
+<hole x="-4.787" y="-1.15" drill="1.27"/>
+<hole x="-2.097" y="-1.15" drill="1.27"/>
+<hole x="-2.224" y="-1.15" drill="1.27"/>
+<hole x="-2.351" y="-1.15" drill="1.27"/>
+<hole x="-2.478" y="-1.15" drill="1.27"/>
+<hole x="-2.605" y="-1.15" drill="1.27"/>
+<hole x="-2.732" y="-1.15" drill="1.27"/>
+<hole x="-2.986" y="-1.15" drill="1.27"/>
+<hole x="-2.859" y="-1.15" drill="1.27"/>
+<hole x="-3.113" y="-1.15" drill="1.27"/>
+<hole x="-3.24" y="-1.15" drill="1.27"/>
+<hole x="-3.517" y="-1.15" drill="1.27"/>
+<hole x="-3.644" y="-1.15" drill="1.27"/>
+<hole x="-3.771" y="-1.15" drill="1.27"/>
+<hole x="-3.898" y="-1.15" drill="1.27"/>
+<hole x="-4.025" y="-1.15" drill="1.27"/>
+<hole x="-4.152" y="-1.15" drill="1.27"/>
+<hole x="-4.279" y="-1.15" drill="1.27"/>
+<hole x="-4.406" y="-1.15" drill="1.27"/>
+<hole x="-4.533" y="-1.15" drill="1.27"/>
+<hole x="5.803" y="-1.15" drill="1.27"/>
+<hole x="5.676" y="-1.15" drill="1.27"/>
+<hole x="5.549" y="-1.15" drill="1.27"/>
+<hole x="5.422" y="-1.15" drill="1.27"/>
+<hole x="5.295" y="-1.15" drill="1.27"/>
+<hole x="5.168" y="-1.15" drill="1.27"/>
+<hole x="5.041" y="-1.15" drill="1.27"/>
+<hole x="4.914" y="-1.15" drill="1.27"/>
+<hole x="4.787" y="-1.15" drill="1.27"/>
+<hole x="4.533" y="-1.15" drill="1.27"/>
+<hole x="4.406" y="-1.15" drill="1.27"/>
+<hole x="4.279" y="-1.15" drill="1.27"/>
+<hole x="4.025" y="-1.15" drill="1.27"/>
+<hole x="4.025" y="-1.15" drill="1.27"/>
+<hole x="4.152" y="-1.15" drill="1.27"/>
+<hole x="3.898" y="-1.15" drill="1.27"/>
+<hole x="3.771" y="-1.15" drill="1.27"/>
+<hole x="3.771" y="-1.15" drill="1.27"/>
+<hole x="3.644" y="-1.15" drill="1.27"/>
+<hole x="3.644" y="-1.15" drill="1.27"/>
+<hole x="3.644" y="-1.15" drill="1.27"/>
+<hole x="3.517" y="-1.15" drill="1.27"/>
+<hole x="3.517" y="-1.15" drill="1.27"/>
+<hole x="3.39" y="-1.15" drill="1.27"/>
+<hole x="3.113" y="-1.15" drill="1.27"/>
+<hole x="2.986" y="-1.15" drill="1.27"/>
+<hole x="2.859" y="-1.15" drill="1.27"/>
+<hole x="2.732" y="-1.15" drill="1.27"/>
+<hole x="2.605" y="-1.15" drill="1.27"/>
+<hole x="2.478" y="-1.15" drill="1.27"/>
+<hole x="2.351" y="-1.15" drill="1.27"/>
+<hole x="2.224" y="-1.15" drill="1.27"/>
+<hole x="2.097" y="-1.15" drill="1.27"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERPOLE_POWER">
@@ -300,6 +381,15 @@ using ameteur radio standard layout</description>
 <connects>
 <connect gate="G$1" pin="GND" pad="BLACK1 BLACK2 BLACK3 BLACK4"/>
 <connect gate="G$1" pin="V+" pad="RED1 RED2 RED3 RED4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="45A" package="POWERPOLE_PAIR_45A">
+<connects>
+<connect gate="G$1" pin="GND" pad="BLACK"/>
+<connect gate="G$1" pin="V+" pad="RED"/>
 </connects>
 <technologies>
 <technology name=""/>
